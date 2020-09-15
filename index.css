@@ -1,0 +1,21 @@
+.button {
+    background-color: 32, 35, 44;
+    border:5px solid #000000;
+    color: White;
+    font-family: AlteDin;
+    font-size: 1.3vw;
+    text-align: center;
+    cursor: pointer;
+    height: 3vw;
+    width: 150px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover {
+    background-color: #4CAF50;
+}
+.button:not(:first-child) {
+    margin-left: 20px;
+  }
