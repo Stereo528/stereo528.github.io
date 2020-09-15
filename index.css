@@ -1,5 +1,5 @@
 .button {
-    background-color: 32, 35, 44;
+    background-color: #20232c;
     border:5px solid #000000;
     color: White;
     font-family: AlteDin;
@@ -18,4 +18,56 @@
 }
 .button:not(:first-child) {
     margin-left: 20px;
-  }
+}
+
+.button-notinuse {
+    background-color: #101010;
+    border:5px solid #000000;
+    color: White;
+    font-family: AlteDin;
+    font-size: 1.3vw;
+    text-align: center;
+    cursor: not-allowed;
+    height: 3vw;
+    width: 150px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-notinuse:hover {
+    background-color: #690f0f;
+}
+
+.button-notinuse:not(:first-child) {
+    margin-left: 20px;
+}
+
+.button-current {
+    background-color: #20232c;
+    border:5px solid #000000;
+    color: White;
+    font-family: AlteDin;
+    font-size: 1.3vw;
+    text-align: center;
+    cursor: default;
+    height: 3vw;
+    width: 150px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-current:not(:first-child) {
+    margin-left: 20px;
+}
+
+.button-current:hover {
+    background-color: #cf7f00;
+}
+
+body {
+    background-color: rgb(16, 16, 21);
+}
