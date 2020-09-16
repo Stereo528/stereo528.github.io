@@ -1,23 +1,22 @@
 .button {
-    background-color: #20232c;
+    background-color: #191919;
     border:5px solid #000000;
     color: White;
     font-family: AlteDin;
     font-size: 1.3vw;
     text-align: center;
     cursor: pointer;
-    height: 3vw;
-    width: 150px;
+    height: 57px;
+    width: 300px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    margin-right: 25px;
 }
 .button:hover {
-    background-color: #4CAF50;
-}
-.button:not(:first-child) {
-    margin-left: 20px;
+    background-color: #303030;
 }
 
 .button-notinuse {
@@ -28,46 +27,65 @@
     font-size: 1.3vw;
     text-align: center;
     cursor: not-allowed;
-    height: 3vw;
-    width: 150px;
+    height: 57px;
+    width: 300px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    margin-right: 25px;
 }
 
 .button-notinuse:hover {
     background-color: #690f0f;
 }
 
-.button-notinuse:not(:first-child) {
-    margin-left: 20px;
-}
-
 .button-current {
-    background-color: #20232c;
+    background-color: #202020;
     border:5px solid #000000;
     color: White;
     font-family: AlteDin;
     font-size: 1.3vw;
     text-align: center;
-    cursor: default;
-    height: 3vw;
-    width: 150px;
+    cursor: not-allowed;
+    height: 57px;
+    width: 300px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-}
-
-.button-current:not(:first-child) {
-    margin-left: 20px;
+    border-radius: 20px;
+    margin-right: 25px;
 }
 
 .button-current:hover {
-    background-color: #cf7f00;
+    background-color: #252525;
 }
 
 body {
     background-color: rgb(16, 16, 21);
+}
+
+.buttons {
+    background-color: #1c1e24;
+    height:100px;
+    padding: 10px;
+    margin-left: -32px;
+    
+}
+
+.outer {
+	background-color: #23262e;
+	min-height:100%;
+    margin-top:-50px;
+}
+
+.banner {
+    background-color: #1c1e24;
+    padding-top: 42px;
+    margin-left: -20px;
+}
+.bannerImg {
+    width: 100%;
 }
