@@ -7,22 +7,98 @@
     height: 20px;
     width: 100px;
     text-decoration: underline;
-    margin-right: 5px; 
+    margin-right: 5px;
+    border: 5px;
+    justify-content: right;
 }
 .button:hover {
     color: rgb(32, 32, 56);
 }
 
+.button-current {
+    color: White;
+    font-family: AlteDin;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    height: 20px;
+    width: 100px;
+    text-decoration: none;
+    margin-right: 5px;
+    border: 5px;
+    justify-content: right;
+}
+
 body {
-    background-color: rgb(216, 216, 221);
+    background-color: rgb(109, 109, 118);
     color: #e1e1e8
 }
 
-.buttons {
-    background-color: rgb(146, 146, 196);
-    height:40px;
+p {
+    color: rgb(42, 42, 42);
+}
+h1 {
+    color: rgb(42, 42, 42);
+}
+h2 {
+    color: rgb(42, 42, 42);
 }
 
-p {
-    color: rgb(42, 42, 42)
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.maincontent {
+    background-color: rgba(90, 90, 95, 0.9);
+    height: 875px;
+    width: 1500px;
+
 }

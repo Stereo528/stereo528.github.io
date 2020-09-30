@@ -2,26 +2,38 @@
 <html lang="en">
     <head>
         <title>
-            About Stereo528
+            Stereo528's Projects
         </title>
         <link rel="shortcut icon" href="icon.ico">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-            <!-- Insert Nav Bar-->
-            <div class="buttons">
-                <center>
-                <ul>
-                    <a href="index.html" class="button">Home</a>
-                    <a class="button">About</a>
-                    <a href="packs.html" class="button">Packs</a>
-                    <a href="mods.html" class="button">Mods</a>
-                </ul>
-                </center>
+        <div id="sidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="button" href="index.html">Home</a>
+            <a class="button">About</a>
+            <a class="button" href="packs.html">Packs</a>
+            <a class="button" href="mods.html">Mods</a>
+        </div>
+
+        <div class="container" onclick="openNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <script>
+            function openNav() {document.getElementById("sidenav").style.width = "200px";}
+            function closeNav() {document.getElementById("sidenav").style.width = "0";}
+        </script>
+
+        <center>
+        <div class="maincontent">
+            <div id="main">
+                <h1>WIP Landing Page</h1>
+                <p>Generic WIP HTML Landing Page</p>
             </div>
-            <!-- Create Landing Page-->
-                <p>
-                Generic WIP HTML Landing Page
-                </p>
+        </div>
+        </center>
     </body>
 </html>

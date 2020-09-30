@@ -2,28 +2,39 @@
 <html lang="en">
     <head>
         <title>
-            Stereo528's Resource Packs
+            Stereo528's Projects
         </title>
-        <link rel="shortcut icon" href="pack.ico">
+        <link rel="shortcut icon" href="icon.ico">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <div id="sidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="about.html">About</a>
+            <a class="button">Packs</a>
+            <a class="button" href="mods.html">Mods</a>
+        </div>
 
-            <!-- Insert Nav Bar-->
-            <div class="buttons">
-                <center>
-                <ul>
+        <div class="container" onclick="openNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
 
-                    <a href="index.html" class="button">Home</a>
-                    <a href="about.html" class="button">About</a>
-                    <a class="button">Packs</a>
-                    <a href="mods.html" class="button">Mods</a>
-                </ul>
-                </center>
+        <script>
+            function openNav() {document.getElementById("sidenav").style.width = "200px";}
+            function closeNav() {document.getElementById("sidenav").style.width = "0";}
+        </script>
+
+        <center>
+        <div class="maincontent">
+            <div id="main">
+                <h1>WIP Landing Page</h1>
+                <p>Generic WIP HTML Landing Page</p>
             </div>
-            <!-- Find a way to format this with all my packs -->
-                <p>
-                Generic WIP HTML Landing Page
-                </p>
+        </div>
+        </center>
+
     </body>
 </html>
