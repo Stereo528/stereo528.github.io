@@ -1,91 +1,31 @@
 .button {
-    background-color: #191919;
-    border:5px solid #000000;
     color: White;
     font-family: AlteDin;
-    font-size: 1.3vw;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
-    height: 57px;
-    width: 300px;
+    height: 20px;
+    width: 100px;
     text-decoration: none;
-    display: inline-flex;
+    display: inline-flexbox;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
     margin-right: 25px;
 }
 .button:hover {
-    background-color: #303030;
-}
-
-.button-notinuse {
-    background-color: #101010;
-    border:5px solid #000000;
-    color: White;
-    font-family: AlteDin;
-    font-size: 1.3vw;
-    text-align: center;
-    cursor: not-allowed;
-    height: 57px;
-    width: 300px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    margin-right: 25px;
-}
-
-.button-notinuse:hover {
-    background-color: #690f0f;
-}
-
-.button-current {
-    background-color: #202020;
-    border:5px solid #000000;
-    color: White;
-    font-family: AlteDin;
-    font-size: 1.3vw;
-    text-align: center;
-    cursor: not-allowed;
-    height: 57px;
-    width: 300px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    margin-right: 25px;
-}
-
-.button-current:hover {
-    background-color: #252525;
+    color: rgb(32, 32, 56);
 }
 
 body {
-    background-color: rgb(16, 16, 21);
+    background-color: rgb(216, 216, 221);
     color: #e1e1e8
 }
 
 .buttons {
-    background-color: #1c1e24;
-    height:100px;
-    padding: 10px;
-    margin-left: -32px;
+    background-color: rgb(146, 146, 196);
+    height:40px;
 }
 
-.outer {
-	background-color: #23262e;
-	min-height:100%;
-    margin-top:-50px;
-}
-
-.banner {
-    background-color: #1c1e24;
-    padding-top: 42px;
-    margin-left: -20px;
-}
-.bannerImg {
-    width: 100%;
+p {
+    color: rgb(42, 42, 42)
 }
