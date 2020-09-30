@@ -6,11 +6,8 @@
     cursor: pointer;
     height: 20px;
     width: 100px;
-    text-decoration: none;
-    display: inline-flexbox;
-    align-items: center;
-    justify-content: center;
-    margin-right: 25px;
+    text-decoration: underline;
+    margin-right: 5px; 
 }
 .button:hover {
     color: rgb(32, 32, 56);
