@@ -5,6 +5,13 @@
     background-color: rgb(32, 32, 56);
 }
 
+.pButton {
+    display: flex;
+    color: rgb(44, 44, 44);
+    font-family: AlteDin;
+}
+
+
 .button-current {
     display: flex;
     color: White;
@@ -23,8 +30,9 @@
 }
 
 body {
+    background-image: url("img/background.png");
     background-color: rgb(236, 236, 236);
-    color: #e1e1e8
+    color: #e1e1e8;
 }
 
 p {
@@ -36,18 +44,41 @@ h1 {
 h3 {
     color: rgb(22, 22, 22);
 }
-
+h2 {
+    color: rgb(22, 22, 22);
+}
 .maincontent {
     margin-left:auto;
     margin-right:auto;
     padding-top: 10px;
-    width:1500px;
-    height: 800px;
+    width: 100%;
+    height: 850px;
     background-color:rgba(200, 200, 205, 0.9);
 }
-footer {
-    background-color: #444;
+
+.mainLeft {
+    align-content: flex-start;
+    padding-top: 100px;
+    padding-left: 50px;
 }
+.pLeft {
+    display: flex;
+    align-content: flex-start;
+}
+
+.mainRight {
+    align-content: flex-start;
+    padding-top: 200px;
+    padding-left: 1500px;
+}
+.pRight {
+    display: flex;
+    align-content: flex-end;
+}
+
+
+
+
 .topnav {
     width: 100%;
     display: flex;
