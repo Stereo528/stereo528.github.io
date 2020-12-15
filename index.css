@@ -12,8 +12,6 @@
     font-size: 20px;
     text-align: center;
     cursor: pointer;
-    height: 50px;
-    width: 100px;
     text-decoration: none;
     margin-right: 5px;
     border: 5px;
@@ -35,39 +33,60 @@ p {
 h1 {
     color: rgb(22, 22, 22);
 }
-h2 {
+h3 {
     color: rgb(22, 22, 22);
 }
-
-.topnav {
-    width: 1500px;
-    display: flex;
-    background-color: #555;
-    overflow: auto;
-    justify-content: center;
-    align-items: center;
-    margin-left:auto;
-    margin-right:auto;
-}
-.topnav a{
-    display: flex;
-    color: White;
-    font-family: AlteDin;
-    font-size: 20px;
-    text-align: center;
-    cursor: pointer;
-    height: 25px;
-    width: 100px;
-    margin-right: 5px;
-    border: 5px solid #444;
-    justify-content: center;
-} 
 
 .maincontent {
     margin-left:auto;
     margin-right:auto;
     padding-top: 10px;
     width:1500px;
-    height:900px;
+    height: 800px;
     background-color:rgba(200, 200, 205, 0.9);
+}
+footer {
+    background-color: #444;
+}
+.topnav {
+    width: 100%;
+    display: flex;
+    background-color: #555;
+    overflow: auto;
+    justify-content: center;
+    align-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.topnav a {
+    display: flex;
+    color: White;
+    font-family: AlteDin;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 5px;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+}
+
+#discordButton {
+    display: inline-flex;
+    position: relative;
+}
+#DiscordButton a {
+    padding-right: 8px;
+    display: block;
+    text-align: center;
+}
+.discordIcon {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    justify-content: center;
+}
+.discordIcon:hover {
+    background-color: rgb(32, 32, 56);
 }
