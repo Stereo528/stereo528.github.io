@@ -56,29 +56,6 @@ h2 {
     background-color:rgba(200, 200, 205, 0.75);
 }
 
-.mainLeft {
-    align-content: flex-start;
-    padding-top: 100px;
-    padding-left: 50px;
-}
-.pLeft {
-    display: flex;
-    align-content: flex-start;
-}
-
-.mainRight {
-    align-content: flex-start;
-    padding-top: 200px;
-    padding-left: 1500px;
-}
-.pRight {
-    display: flex;
-    align-content: flex-end;
-}
-
-
-
-
 .topnav {
     width: 100%;
     display: flex;
