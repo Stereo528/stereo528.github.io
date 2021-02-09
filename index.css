@@ -95,6 +95,13 @@ h2 {
     position: relative;
     justify-content: center;
 }
+#githubButton {
+    height: 50px;
+    width: 100px;
+}
 .discordIcon:hover {
+    background-color: rgb(32, 32, 56);
+}
+.GithubIcon:hover {
     background-color: rgb(32, 32, 56);
 }
