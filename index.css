@@ -52,6 +52,9 @@ body {
     width: 100px;
     line-height: 50px;
 }
+.topnav a:hover {
+    background: #555;
+}
 #discordButton {
     display: inline-flex;
     position: relative;
