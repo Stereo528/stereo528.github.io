@@ -1,6 +1,4 @@
-.button {
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .button:hover {
     background-color: rgb(32, 32, 56);
 }
@@ -8,14 +6,14 @@
 .pButton {
     display: flex;
     color: rgb(44, 44, 44);
-    font-family: AlteDin;
+    font-family: Poppins;
 }
 
 
 .button-current {
     display: flex;
     color: White;
-    font-family: AlteDin;
+    font-family: Poppins;
     font-size: 20px;
     text-align: center;
     cursor: pointer;
@@ -30,9 +28,14 @@
 }
 
 body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("img/background.png");
-    background-color: rgb(236, 236, 236);
+    background-color:rgba(200, 200, 205, 0.75);
     color: #e1e1e8;
+    font-family: Poppins;
 }
 
 p {
@@ -50,7 +53,7 @@ h2 {
 .maincontent {
     padding-top: 10px;
     width: 100vw;
-    height: 92.75vh;
+    height: 100vh;
     background-color:rgba(200, 200, 205, 0.75);
     margin-left: -8px;
 }
@@ -67,9 +70,9 @@ h2 {
     margin-top: -8px;
 }
 .topnav a {
-    display: flex;
+    display: fixed;
     color: White;
-    font-family: AlteDin;
+    font-family: Poppins;
     font-size: 20px;
     text-align: center;
     cursor: pointer;
@@ -96,8 +99,19 @@ h2 {
     justify-content: center;
 }
 #githubButton {
+    display: inline-flex;
+    position: relative;
+}
+#githubButton a {
+    padding-right: -8px;
+    display: block;
+    text-align: center;
+}
+.GithubIcon {
     height: 50px;
     width: 100px;
+    position: relative;
+    justify-content: center;
 }
 .discordIcon:hover {
     background-color: rgb(32, 32, 56);
