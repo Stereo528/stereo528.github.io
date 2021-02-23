@@ -1,17 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-.button:hover {
-    background-color: rgb(32, 32, 56);
-}
-
-.pButton {
-    display: flex;
-    color: rgb(44, 44, 44);
-    font-family: Poppins;
-}
-
-.button-current:hover {
-    background-color: rgb(42, 42, 56);
-}
 
 body {
     background-attachment: fixed;
@@ -51,9 +38,11 @@ body {
     height: 50px;
     width: 100px;
     line-height: 50px;
+    text-decoration: none;
 }
 .topnav a:hover {
     background: #555;
+    text-decoration: underline;
 }
 #discordButton {
     display: inline-flex;
