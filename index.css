@@ -151,8 +151,8 @@ body {
     color: rgb(66,66,66);
 }
 .packlistpics {
-    width: 128px;
-    height: 128px;
+    width: 256px;
+    height: 256px;
     margin-right: 25px;
     margin-left: 25px;
 }
