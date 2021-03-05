@@ -61,6 +61,8 @@ body {
 #githubButton {
     display: inline-flex;
     position: relative;
+    height: 50px;
+    width: 100px;
 }
 #githubButton a {
     padding-right: -8px;
@@ -68,8 +70,9 @@ body {
     text-align: center;
 }
 .GithubIcon {
-    height: 50px;
-    width: 100px;
+    height: 45px;
+    width: 45px;
+    padding-top: 2px;
     position: relative;
     justify-content: center;
 }
