@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: linear-gradient(136deg, rgba(0,0,255,0.5), rgb(128,0,128,0.5), rgba(255, 0, 255, 0.5));
     background-image: 
     linear-gradient(136deg, rgba(0,0,255,0.5), rgb(128,0,128,0.5), rgba(255, 0, 255, 0.5)),
-    url("img/background.png");
+    url("img/background.png") !important;
 
 }
 .topnav {
@@ -89,7 +90,6 @@ body {
     position: relative;
     justify-content: center;
     font-family: Poppins;
-    padding-top: 40px;
     color: rgb(22, 22, 22);
     text-align: center;
 }
@@ -127,20 +127,17 @@ body {
     width: 50px;
     height: 50px;
 }
-.packlist {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 50px;
+.packs a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: underline;
 }
-.packlist a {
+/*.packlist a {
     font-size: 25px;
     display: flex;
     color: rgb(22, 22, 22);
     font-family: Poppins;
-    cursor: pointer;
-    text-align: center;
+    /*text-align: center;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -149,13 +146,21 @@ body {
     width: 250px;
     margin-right: 25px;
     margin-left: 25px;
-}
-.packlist a:hover {
-    color: rgb(66,66,66);
-}
+}*/
 .packlistpics {
     width: 256px;
     height: 256px;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 308px;
+}
+
+.misc a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.mods a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: underline;
 }
