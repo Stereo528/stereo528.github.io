@@ -1,166 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-color: linear-gradient(136deg, rgba(0,0,255,0.5), rgb(128,0,128,0.5), rgba(255, 0, 255, 0.5));
-    background-image: 
-    linear-gradient(136deg, rgba(0,0,255,0.5), rgb(128,0,128,0.5), rgba(255, 0, 255, 0.5)),
-    url("img/background.png") !important;
-
+:root {
+    font-family: Poppins;
+    --light-color: #faf8ff;
+    --dark-color: #474555;
+    --gray-color: #777586;
+    --accent-color: #4457a9;
 }
-.topnav {
-    width: 100%;
-    height: 60px;
+
+
+body {
+    background-color: var(--light-color);
+    place-items: center;
+    margin-top: 64px;
+    height: calc(100vh - 72px)
+}
+
+.header {
+    width: 100vw;
+    height: 64px;
     display: flex;
-    background-color: #333;
+    background-color: var(--dark-color);
     overflow: hidden;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
     left: 0;
     top: 0;
     position: fixed;
 }
-.topnav a {
+
+.header-content-pages {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.header-content-pages a {
     display: fixed;
-    color: White;
-    font-family: Poppins;
+    color: var(--light-color);
     font-size: 20px;
     text-align: center;
     cursor: pointer;
-    margin-right: 5px;
     justify-content: center;
     align-content: center;
     align-items: center;
+    margin-right: 25px;
     height: 50px;
-    width: 100px;
+    width: 100%;
     line-height: 50px;
     text-decoration: none;
+    transition: transform 0.5s, text-decoration 0.5s;
 }
-.topnav a:hover {
-    background: #555;
+
+.header-content-pages a:hover {
+    transform: scale(1.25);
     text-decoration: underline;
 }
-#discordButton {
-    display: inline-flex;
-    position: relative;
+
+.header-icon {
+    padding-top: 4px;
 }
-#DiscordButton a {
-    padding-right: 8px;
-    display: block;
-    text-align: center;
-}
-.discordIcon {
-    height: 50px;
-    width: 100px;
-    position: relative;
-    justify-content: center;
-}
-#githubButton {
-    display: inline-flex;
-    position: relative;
-    height: 50px;
-    width: 100px;
-}
-#githubButton a {
-    padding-right: -8px;
-    display: block;
-    text-align: center;
-}
-.GithubIcon {
-    height: 45px;
-    width: 45px;
-    padding-top: 2px;
-    position: relative;
-    justify-content: center;
-}
-.social-links {
-    padding-top: 50px;
-    font-family: Poppins;
-    color: rgb(22, 22, 22);
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-}
-.mods {
-    padding-top: 50px;
-    position: relative;
-    justify-content: center;
-    font-family: Poppins;
-    color: rgb(22, 22, 22);
-    text-align: center;
-}
-.packs {
-    padding-top: 50px;
-    position: relative;
-    justify-content: center;
-    font-family: Poppins;
-    color: rgb(22, 22, 22);
-    text-align: center;
-}
-.misc {
-    padding-top: 50px;
-    position: relative;
-    justify-content: center;
-    font-family: Poppins;
-    color: rgb(22, 22, 22);
-    text-align: center;
-}
-.webpage {
-    font-family: Poppins;
-    padding-top: 40px;
-    color: rgb(22, 22, 22);
-    text-align: center;
-}
-.SocialButton {
-    width: 50px;
-    height: 50px;
-    display: inline-flex;
-}
-.SocialButton:hover {
-    background-color: rgb(70, 70, 70);
-}
-.SocialButtonIcon {
-    width: 50px;
-    height: 50px;
-}
-.packs a {
-    font-size: 20px;
-    color: #000;
-    text-decoration: underline;
-}
-/*.packlist a {
-    font-size: 25px;
+
+.header-content-right {
     display: flex;
-    color: rgb(22, 22, 22);
-    font-family: Poppins;
-    /*text-align: center;
+    justify-content: right;
+    text-align: center;
+    padding: 11px 20px;
+    width: 100%;
+}
+
+.header-content-right a {
+    margin-right: 15px;
+    color: var(--light-color);
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+.header-content-right img {
+    width: 40px;
+    height: 40px;
+    color: var(--light-color);
+}
+
+.header-content-right a:hover {
+    transform: scale(1.25);
+}
+
+.page-title {
+    border: 5px solid var(--accent-color);
+}
+
+.page-content {
+    line-height: 25px;
+    padding: 0 9px;
+    border: 5px solid var(--accent-color);
+}
+
+.page {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    color: var(--dark-color);
     justify-content: center;
-    align-content: center;
-    align-items: center;
-    position: relative;
-    height: 50px;
-    width: 250px;
-    margin-right: 25px;
-    margin-left: 25px;
-}*/
-.packlistpics {
-    width: 256px;
-    height: 256px;
-    margin-right: 308px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
-.misc a {
-    font-size: 20px;
-    color: #000;
-    text-decoration: underline;
+.page a {
+    color: var(--gray-color);
+    transition: color 0.25s;
 }
 
-.mods a {
+.page a:hover {
+    color: var(--accent-color);
+}
+
+.project-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.project-description {
     font-size: 20px;
-    color: #000;
-    text-decoration: underline;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid var(--accent-color);
+    margin: 10px 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
